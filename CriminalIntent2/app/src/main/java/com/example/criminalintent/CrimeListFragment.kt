@@ -76,7 +76,7 @@ class CrimeListFragment: Fragment() {
     private inner class CrimePoliceHolder(view : View) : CrimeHolder(view){
         val police:Button = itemView.findViewById(R.id.police_button)
         init {
-            police.setOnClickListener{view:View ->
+            police.setOnClickListener{
                 Toast.makeText(context,"I call the police!!",Toast.LENGTH_SHORT).show()
             }
         }
